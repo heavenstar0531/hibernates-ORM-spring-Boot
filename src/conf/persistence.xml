@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence 
+    version="2.1" 
+    xmlns="http://xmlns.jcp.org/xml/ns/persistence" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+
+  <!-- Oracle -->
+  <persistence-unit name="HelloJPA-PU" transaction-type="JTA">
+    <jta-data-source>java:app/jdbc/Oracle</jta-data-source>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
+      <property name="javax.persistence.schema-generation.create-source" value="script"/>
+      <property name="javax.persistence.schema-generation.create-script-source" value="META-INF/sql/oracle-create.sql"/>
+      <property name="javax.persistence.schema-generation.drop-source" value="script"/>
+      <property name="javax.persistence.schema-generation.drop-script-source" value="META-INF/sql/oracle-drop.sql"/>
+      <property name="javax.persistence.sql-load-script-source" value="META-INF/sql/oracle-load.sql"/>
+      <property name="eclipselink.logging.level" value="FINEST"/>
+    </properties>
+  </persistence-unit>
+
+  <!-- PostgreSQL -->
+<!--  <persistence-unit name="HelloJPA-PU" transaction-type="JTA">
+    <jta-data-source>java:app/jdbc/PostgreSQL</jta-data-source>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
+      <property name="javax.persistence.schema-generation.create-source" value="script"/>
+      <property name="javax.persistence.schema-generation.create-script-source" value="META-INF/sql/pgsql-create.sql"/>
+      <property name="javax.persistence.schema-generation.drop-source" value="script"/>
+      <property name="javax.persistence.schema-generation.drop-script-source" value="META-INF/sql/pgsql-drop.sql"/>
+      <property name="javax.persistence.sql-load-script-source" value="META-INF/sql/pgsql-load.sql"/>
+      <property name="eclipselink.logging.level" value="FINEST"/>
+    </properties>
+  </persistence-unit>-->
+</persistence>

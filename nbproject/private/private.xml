@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/mil/NetBeansProjects/Samples/HelloObjectJPA/web/WEB-INF/glassfish-resources.xml</file>
+            <file>file:/Users/mil/NetBeansProjects/Samples/HelloObjectJPA/src/java/ru/lionsoft/javaee/jpa/entities/Address.java</file>
+            <file>file:/Users/mil/NetBeansProjects/Samples/HelloObjectJPA/src/java/ru/lionsoft/javaee/jpa/entities/Employee.java</file>
+            <file>file:/Users/mil/NetBeansProjects/Samples/HelloObjectJPA/src/java/ru/lionsoft/javaee/jpa/entities/Company.java</file>
+            <file>file:/Users/mil/NetBeansProjects/Samples/HelloObjectJPA/src/java/ru/lionsoft/javaee/jpa/entities/Department.java</file>
+            <file>file:/Users/mil/NetBeansProjects/Samples/HelloObjectJPA/src/conf/persistence.xml</file>
+            <file>file:/Users/mil/NetBeansProjects/Samples/HelloObjectJPA/src/java/ru/lionsoft/javaee/jpa/servlets/CompanyServlet.java</file>
+            <file>file:/Users/mil/NetBeansProjects/Samples/HelloObjectJPA/src/java/ru/lionsoft/javaee/jpa/facades/CompanyFacade.java</file>
+        </group>
+    </open-files>
+</project-private>
